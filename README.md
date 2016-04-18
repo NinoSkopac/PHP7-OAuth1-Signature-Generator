@@ -18,7 +18,7 @@ $OAuth
 // make a request with CURL using constructed OAuth1 payload
 $curl = curl_init($requestURL . '?' . http_build_query($OAuth->getPayload()));
 
-// or if you only nee the signature:
+// or if you only need the OAuth1 signature:
 $signature = $OAuth->getSignature();
 ```
 
