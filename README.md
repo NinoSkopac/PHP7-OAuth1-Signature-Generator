@@ -22,6 +22,4 @@ $curl = curl_init($requestURL . '?' . http_build_query($OAuth->getPayload()));
 $signature = $OAuth->getSignature();
 ```
 
-For more examples, go to /examples folder and figure it out, I honestly can't be bothered to make a nice readme file at 4am.
-
-peace
+For more examples, go to the /examples folder.
