@@ -14,7 +14,6 @@ class OAuth1_Utils extends OAuth1 {
      * Constructor
      */
     public function __construct() {
-        return $this;
     }
     
     /**
